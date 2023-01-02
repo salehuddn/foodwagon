@@ -92,7 +92,7 @@
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
                     <button class="nav-link active mb-3" id="nav-home-tab" data-bs-toggle="tab"
                       data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                      aria-selected="true"><i class="fas fa-motorcycle me-2"></i>Dine In</button> 
+                      aria-selected="true"><i class="fas fa-motorcycle me-2"></i>Dine In</button>
                     <button class="nav-link mb-3" id="nav-profile-tab" data-bs-toggle="tab"
                       data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
                       aria-selected="false"><i class="fas fa-shopping-bag me-2"></i>Pickup</button>
@@ -109,7 +109,9 @@
                         </div>
                       </div>
                       <div class="d-grid gap-3 col-sm-auto">
-                        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dineIn"> Order Food</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dineIn">
+                          Order
+                          Food</button>
                       </div>
                     </form>
                   </div>
@@ -123,7 +125,9 @@
                         </div>
                       </div>
                       <div class="d-grid gap-3 col-sm-auto">
-                        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pickup"> Order Food</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pickup">
+                          Order
+                          Food</button>
                       </div>
                     </form>
                   </div>
@@ -135,42 +139,42 @@
       </div>
     </section>
     <!-- dine in modal -->
-<div class="modal fade" id="dineIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Order Details</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-        <button type="button" class="btn btn-primary">Submit Order</button>
+    <div class="modal fade" id="dineIn" tabindex="-1" aria-labelledby="dineInLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h4 class="modal-title" id="dineInLabel">Order Details</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer border-0">
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <button type="button" class="btn btn-primary">Submit Order</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- pickup modal-->
-<div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Order Details</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-        <button type="button" class="btn btn-primary">Submit Order</button>
+    <!-- pickup modal-->
+    <div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="pickupLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h4 class="modal-title" id="pickupLabel">Order Details</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer border-0">
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <button type="button" class="btn btn-primary">Submit Order</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
