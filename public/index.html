@@ -246,583 +246,497 @@
     </div>
     <!-- end dine in receipt modal -->
 
-    <!-- dine in modal -->
-    <div class="modal fade" id="dineIn" aria-labelledby="dineInLabel" aria-hidden="true">
+    <!-- pickup modal -->
+    <div class="modal fade" id="pickup" aria-hidden="true" aria-labelledby="pickupLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="dineInLabel">Order Details</h4>
+            <h4 class="modal-title" id="pickupLabel">Order Details</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">How Many Person?</label>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Person</option>
-                <option value="1">2</option>
-                <option value="2">4</option>
-                <option value="3">6</option>
-                <option value="3">8</option>
-              </select>
-            </div>
-
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Choose Your Time</label>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Time</option>
-                <option value="1">8.00 a.m</option>
-                <option value="2">8.30 a.m</option>
-                <option value="1">9.00 a.m</option>
-                <option value="2">9.30 a.m</option>
-                <option value="1">10.00 a.m</option>
-                <option value="2">10.30 a.m</option>
-                <option value="1">11.00 a.m</option>
-                <option value="2">11.30 a.m</option>
-                <option value="1">12.00 p.m</option>
-                <option value="2">12.30 p.m</option>
-                <option value="1">1.00 p.m</option>
-                <option value="2">1.30 p.m</option>
-                <option value="1">2.00 p.m</option>
-                <option value="2">2.30 p.m</option>
-                <option value="1">3.00 p.m</option>
-                <option value="2">3.30 p.m</option>
-                <option value="1">4.00 p.m</option>
-                <option value="2">4.30 p.m</option>
-                <option value="1">5.00 p.m</option>
-                <option value="2">5.30 p.m</option>
-                <option value="1">6.00 p.m</option>
-                <option value="2">6.30 p.m</option>
-                <option value="1">7.00 p.m</option>
-                <option value="2">7.30 p.m</option>
-                <option value="1">8.00 p.m</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Main Dish</label>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Main Dish</option>
-                <option value="1">Laksa Perlis</option>
-                <option value="2">Kari Ayam</option>
-                <option value="3">Mee Hun Goreng</option>
-                <option value="3">Rendang</option>
-                <option value="3">Satay</option>
-                <option value="3">Nasi Goreng Sosej</option>
-                <option value="3">Nasi Lemak</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Sides</label>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Sides</option>
-                <option value="1">Kuih Bingka Ubi</option>
-                <option value="2">Kuih Kaswi</option>
-                <option value="3">Kuih Koci</option>
-                <option value="3">Kuih Kosui</option>
-                <option value="3">Kuih Nona Manis</option>
-                <option value="3">Kuih Popiah</option>
-                <option value="3">Kuih Pulut Inti</option>
-              </select>
-            </div>
+            ini pickup moda;
           </div>
           <div class="modal-footer border-0">
-            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-            <button type="button" class="btn btn-primary" data-bs-target="#receiptdineIn" data-bs-toggle="modal">Submit
+            <button class="btn btn-primary" data-bs-target="#receiptpickup" data-bs-toggle="modal"
+              data-bs-dismiss="modal">Submit
               Order</button>
           </div>
         </div>
       </div>
     </div>
+    <!-- end pickup modal -->
 
-    <!-- dine in receipt modal -->
-    <div class="modal fade" id="receiptdineIn" aria-labelledby="dineInLabel" aria-hidden="true">
+    <!-- pickup receipt modal -->
+    <div class="modal fade" id="receiptpickup" aria-hidden="true" aria-labelledby="receiptpickup2" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="dineInLabel">Order Details</h4>
+            <h4 class="modal-title" id="pickupLabel">Order Receipt</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             ini resit
-            <div class="modal-footer border-0">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <!-- <button type="button" class="btn btn-primary" data-bs-target="#receiptdineIn" data-bs-toggle="modal" >Submit Order</button> -->
-            </div>
+          </div>
+          <div class="modal-footer border-0">
+            <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
+    </div>
+    <!-- end pickup receipt modal -->
 
-      <!-- pickup modal-->
-      <div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="pickupLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header border-0">
-              <h4 class="modal-title" id="pickupLabel">Order Details</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="py-0">
+
+      <div class="container">
+        <div class="row h-100 gx-2 mt-7">
+          <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card card-span h-100">
+              <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
+                  src="assets/img/makanan/nasi lemak.jpg" alt="..." />
+                <div class="card-actions">
+                  <div class="badge badge-foodwagon bg-primary p-4">
+                    <div class="d-flex flex-between-center">
+                      <div class="text-white fs-7">10</div>
+                      <div class="d-block text-white fs-2">% <br />
+                        <div class="fw-normal fs-1 mt-2">Off</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="fw-bold text-1000 text-truncate">Nasi Lemak</h5><span
+                  class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+              </div><a class="stretched-link" href="#"></a>
             </div>
-            <div class="modal-body">
-              ...
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card card-span h-100">
+              <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
+                  src="assets/img/makanan/rendang.jpg" alt="..." />
+                <div class="card-actions">
+                  <div class="badge badge-foodwagon bg-primary p-4">
+                    <div class="d-flex flex-between-center">
+                      <div class="text-white fs-7">10</div>
+                      <div class="d-block text-white fs-2">% <br />
+                        <div class="fw-normal fs-1 mt-2">Off</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="fw-bold text-1000 text-truncate">Rendang</h5><span
+                  class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+              </div><a class="stretched-link" href="#"></a>
             </div>
-            <div class="modal-footer border-0">
-              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-              <button type="button" class="btn btn-primary">Submit Order</button>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card card-span h-100">
+              <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
+                  src="assets/img/makanan/kari ayam.jpg" alt="..." />
+                <div class="card-actions">
+                  <div class="badge badge-foodwagon bg-primary p-4">
+                    <div class="d-flex flex-between-center">
+                      <div class="text-white fs-7">10</div>
+                      <div class="d-block text-white fs-2">% <br />
+                        <div class="fw-normal fs-1 mt-2">Off</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="fw-bold text-1000 text-truncate">Kari Ayam</h5><span
+                  class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+              </div><a class="stretched-link" href="#"></a>
             </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card card-span h-100">
+              <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
+                  src="assets/img/makanan/mee hun goreng.jpg" alt="..." />
+                <div class="card-actions">
+                  <div class="badge badge-foodwagon bg-primary p-4">
+                    <div class="d-flex flex-between-center">
+                      <div class="text-white fs-7">10</div>
+                      <div class="d-block text-white fs-2">% <br />
+                        <div class="fw-normal fs-1 mt-2">Off</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="fw-bold text-1000 text-truncate">Mi Goreng</h5><span
+                  class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+              </div><a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="py-0 bg-primary-gradient">
+
+      <div class="container">
+        <div class="row justify-content-center g-0">
+          <div class="col-xl-9">
+            <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
+              <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">GET TO KNOW US</h5>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-3 mb-6">
+                <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/location.png" height="112"
+                    alt="..." />
+                  <h5 class="mt-4 fw-bold"> Location</h5>
+                  <p class="mb-md-0">Our place are located in Selama, Perak.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-6">
+                <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/order.png" height="112"
+                    alt="..." />
+                  <h5 class="mt-4 fw-bold">Choose order</h5>
+                  <p class="mb-md-0">Check over hundreds of menus to pick your favorite food</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-6">
+                <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/pay.png" height="112"
+                    alt="..." />
+                  <h5 class="mt-4 fw-bold">Pay advanced</h5>
+                  <p class="mb-md-0">It's quick, safe, and simple. Select several methods of payment</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 mb-6">
+                <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/meals.png" height="112"
+                    alt="..." />
+                  <h5 class="mt-4 fw-bold">Enjoy meals</h5>
+                  <p class="mb-md-0">Food is handmade and will be serve as delicious as presented.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="py-4 overflow-hidden">
+
+      <div class="container">
+        <div class="row h-100">
+          <div class="col-lg-7 mx-auto text-center mt-7 mb-5">
+            <h5 class="fw-bold fs-3 fs-lg-5 lh-sm">Popular desserts</h5>
+          </div>
+          <div class="col-12">
+            <div class="carousel slide" id="carouselPopularItems" data-bs-touch="false" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="row gx-3 h-100 align-items-center">
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih koci.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Koci</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih bingka ubi.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Bingka Ubi</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                              class="text-primary">Warong Kak Leha</span></div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih kosui.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Kosui</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                              class="text-primary">Warong Kak Leha</span></div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih nona manis.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Nona Manis</h5>
+                          <div>
+                            <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih pulut inti.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Pulut Inti</h5>
+                          <div>
+                            <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <div class="row gx-3 h-100 align-items-center">
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih koci.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Koci</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih bingka ubi.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Bingka Ubi</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                              class="text-primary">Warong Kak Leha</span></div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih kosui.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Kosui</h5>
+                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                              class="text-primary">Warong Kak Leha</span></div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih nona manis.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Nona Manis</h5>
+                          <div>
+                            <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                          src="assets/img/makanan/kuih pulut inti.jpg" alt="..." />
+                        <div class="card-body ps-0">
+                          <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Pulut Inti</h5>
+                          <div>
+                            <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-primary">Warong Kak Leha</span>
+                          </div>
+                          <span class="text-1000 fw-bold">RM2.00</span>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="row gx-3 h-100 align-items-center">
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/cheese-burger.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Cheese Burger</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Burger Arena</span></div><span class="text-1000 fw-bold">$3.88</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/toffes-cake.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Toffe's Cake</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Top Sticks</span></div><span class="text-1000 fw-bold">$4.00</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/dancake.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Dancake</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Cake World</span></div><span class="text-1000 fw-bold">$1.99</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/crispy-sandwitch.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Crispy Sandwitch</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Fastfood Dine</span></div><span class="text-1000 fw-bold">$3.00</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/thai-soup.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Thai Soup</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Foody Man</span></div><span class="text-1000 fw-bold">$2.79</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-3 h-100 align-items-center">
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/cheese-burger.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Cheese Burger</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Burger Arena</span></div><span class="text-1000 fw-bold">$3.88</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/toffes-cake.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Toffe's Cake</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Top Sticks</span></div><span class="text-1000 fw-bold">$4.00</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/dancake.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Dancake</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Cake World</span></div><span class="text-1000 fw-bold">$1.99</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/crispy-sandwitch.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Crispy Sandwitch</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Fastfood Dine</span></div><span class="text-1000 fw-bold">$3.00</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
+                    <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
+                        src="assets/img/gallery/thai-soup.png" alt="..." />
+                      <div class="card-body ps-0">
+                        <h5 class="fw-bold text-1000 text-truncate mb-1">Thai Soup</h5>
+                        <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
+                            class="text-primary">Foody Man</span></div><span class="text-1000 fw-bold">$2.79</span>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev carousel-icon" type="button" data-bs-target="#carouselPopularItems"
+              data-bs-slide="prev"><span class="carousel-control-prev-icon hover-top-shadow"
+                aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+            <button class="carousel-control-next carousel-icon" type="button" data-bs-target="#carouselPopularItems"
+              data-bs-slide="next"><span class="carousel-control-next-icon hover-top-shadow"
+                aria-hidden="true"></span><span class="visually-hidden">Next </span></button>
           </div>
         </div>
       </div>
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-0">
-
-        <div class="container">
-          <div class="row h-100 gx-2 mt-7">
-            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-              <div class="card card-span h-100">
-                <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                    src="assets/img/makanan/nasi lemak.jpg" alt="..." />
-                  <div class="card-actions">
-                    <div class="badge badge-foodwagon bg-primary p-4">
-                      <div class="d-flex flex-between-center">
-                        <div class="text-white fs-7">10</div>
-                        <div class="d-block text-white fs-2">% <br />
-                          <div class="fw-normal fs-1 mt-2">Off</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body px-0">
-                  <h5 class="fw-bold text-1000 text-truncate">Nasi Lemak</h5><span
-                    class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
-                </div><a class="stretched-link" href="#"></a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-              <div class="card card-span h-100">
-                <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                    src="assets/img/makanan/rendang.jpg" alt="..." />
-                  <div class="card-actions">
-                    <div class="badge badge-foodwagon bg-primary p-4">
-                      <div class="d-flex flex-between-center">
-                        <div class="text-white fs-7">10</div>
-                        <div class="d-block text-white fs-2">% <br />
-                          <div class="fw-normal fs-1 mt-2">Off</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body px-0">
-                  <h5 class="fw-bold text-1000 text-truncate">Rendang</h5><span
-                    class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
-                </div><a class="stretched-link" href="#"></a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-              <div class="card card-span h-100">
-                <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                    src="assets/img/makanan/kari ayam.jpg" alt="..." />
-                  <div class="card-actions">
-                    <div class="badge badge-foodwagon bg-primary p-4">
-                      <div class="d-flex flex-between-center">
-                        <div class="text-white fs-7">10</div>
-                        <div class="d-block text-white fs-2">% <br />
-                          <div class="fw-normal fs-1 mt-2">Off</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body px-0">
-                  <h5 class="fw-bold text-1000 text-truncate">Kari Ayam</h5><span
-                    class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
-                </div><a class="stretched-link" href="#"></a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-              <div class="card card-span h-100">
-                <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                    src="assets/img/makanan/mee hun goreng.jpg" alt="..." />
-                  <div class="card-actions">
-                    <div class="badge badge-foodwagon bg-primary p-4">
-                      <div class="d-flex flex-between-center">
-                        <div class="text-white fs-7">10</div>
-                        <div class="d-block text-white fs-2">% <br />
-                          <div class="fw-normal fs-1 mt-2">Off</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body px-0">
-                  <h5 class="fw-bold text-1000 text-truncate">Mi Goreng</h5><span
-                    class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
-                </div><a class="stretched-link" href="#"></a>
-              </div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-0 bg-primary-gradient">
-
-        <div class="container">
-          <div class="row justify-content-center g-0">
-            <div class="col-xl-9">
-              <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
-                <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">GET TO KNOW US</h5>
-              </div>
-              <div class="row">
-                <div class="col-sm-6 col-md-3 mb-6">
-                  <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/location.png" height="112"
-                      alt="..." />
-                    <h5 class="mt-4 fw-bold"> Location</h5>
-                    <p class="mb-md-0">Our place are located in Selama, Perak.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-6">
-                  <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/order.png" height="112"
-                      alt="..." />
-                    <h5 class="mt-4 fw-bold">Choose order</h5>
-                    <p class="mb-md-0">Check over hundreds of menus to pick your favorite food</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-6">
-                  <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/pay.png" height="112"
-                      alt="..." />
-                    <h5 class="mt-4 fw-bold">Pay advanced</h5>
-                    <p class="mb-md-0">It's quick, safe, and simple. Select several methods of payment</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-6">
-                  <div class="text-center"><img class="shadow-icon" src="assets/img/gallery/meals.png" height="112"
-                      alt="..." />
-                    <h5 class="mt-4 fw-bold">Enjoy meals</h5>
-                    <p class="mb-md-0">Food is handmade and will be serve as delicious as presented.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-4 overflow-hidden">
-
-        <div class="container">
-          <div class="row h-100">
-            <div class="col-lg-7 mx-auto text-center mt-7 mb-5">
-              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm">Popular desserts</h5>
-            </div>
-            <div class="col-12">
-              <div class="carousel slide" id="carouselPopularItems" data-bs-touch="false" data-bs-interval="false">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row gx-3 h-100 align-items-center">
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih koci.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Koci</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih bingka ubi.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Bingka Ubi</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                                class="text-primary">Warong Kak Leha</span></div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih kosui.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Kosui</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                                class="text-primary">Warong Kak Leha</span></div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih nona manis.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Nona Manis</h5>
-                            <div>
-                              <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih pulut inti.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Pulut Inti</h5>
-                            <div>
-                              <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <div class="row gx-3 h-100 align-items-center">
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih koci.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Koci</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih bingka ubi.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Bingka Ubi</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                                class="text-primary">Warong Kak Leha</span></div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih kosui.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Kosui</h5>
-                            <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                                class="text-primary">Warong Kak Leha</span></div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih nona manis.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Nona Manis</h5>
-                            <div>
-                              <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                        <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/makanan/kuih pulut inti.jpg" alt="..." />
-                          <div class="card-body ps-0">
-                            <h5 class="fw-bold text-1000 text-truncate mb-1">Kuih Pulut Inti</h5>
-                            <div>
-                              <span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span>
-                              <span class="text-primary">Warong Kak Leha</span>
-                            </div>
-                            <span class="text-1000 fw-bold">RM2.00</span>
-                          </div>
-                        </div>
-                        <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <div class="row gx-3 h-100 align-items-center">
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/cheese-burger.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Cheese Burger</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Burger Arena</span></div><span class="text-1000 fw-bold">$3.88</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/toffes-cake.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Toffe's Cake</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Top Sticks</span></div><span class="text-1000 fw-bold">$4.00</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/dancake.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Dancake</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Cake World</span></div><span class="text-1000 fw-bold">$1.99</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/crispy-sandwitch.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Crispy Sandwitch</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Fastfood Dine</span></div><span
-                            class="text-1000 fw-bold">$3.00</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/thai-soup.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Thai Soup</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Foody Man</span></div><span class="text-1000 fw-bold">$2.79</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row gx-3 h-100 align-items-center">
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/cheese-burger.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Cheese Burger</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Burger Arena</span></div><span class="text-1000 fw-bold">$3.88</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/toffes-cake.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Toffe's Cake</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Top Sticks</span></div><span class="text-1000 fw-bold">$4.00</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/dancake.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Dancake</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Cake World</span></div><span class="text-1000 fw-bold">$1.99</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/crispy-sandwitch.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Crispy Sandwitch</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Fastfood Dine</span></div><span
-                            class="text-1000 fw-bold">$3.00</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                      <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
-                          src="assets/img/gallery/thai-soup.png" alt="..." />
-                        <div class="card-body ps-0">
-                          <h5 class="fw-bold text-1000 text-truncate mb-1">Thai Soup</h5>
-                          <div><span class="text-warning me-2"><i class="fas fa-map-marker-alt"></i></span><span
-                              class="text-primary">Foody Man</span></div><span class="text-1000 fw-bold">$2.79</span>
-                        </div>
-                      </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev carousel-icon" type="button" data-bs-target="#carouselPopularItems"
-                data-bs-slide="prev"><span class="carousel-control-prev-icon hover-top-shadow"
-                  aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
-              <button class="carousel-control-next carousel-icon" type="button" data-bs-target="#carouselPopularItems"
-                data-bs-slide="next"><span class="carousel-control-next-icon hover-top-shadow"
-                  aria-hidden="true"></span><span class="visually-hidden">Next </span></button>
-            </div>
-          </div>
-        </div>
-    </div><!-- end of .container-->
+      </div><!-- end of .container-->
 
     </section>
     <!-- <section> close ============================-->
