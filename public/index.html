@@ -86,13 +86,13 @@
             <h1 class="display-1 fs-md-5 fs-lg-6 fs-xl-8 text-light">Are you starving?</h1>
             <h1 class="text-800 mb-5 fs-4">Within a few clicks, find meals that<br class="d-none d-xxl-block" />are
               accessible near you</h1>
-            <!-- <div class="card w-xxl-75">
+            <div class="card w-xxl-75">
               <div class="card-body">
                 <nav>
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
                     <button class="nav-link active mb-3" id="nav-home-tab" data-bs-toggle="tab"
                       data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                      aria-selected="true"><i class="fas fa-motorcycle me-2"></i>Delivery</button>
+                      aria-selected="true"><i class="fas fa-motorcycle me-2"></i>Dine In</button> 
                     <button class="nav-link mb-3" id="nav-profile-tab" data-bs-toggle="tab"
                       data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
                       aria-selected="false"><i class="fas fa-shopping-bag me-2"></i>Pickup</button>
@@ -105,11 +105,11 @@
                         <div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i>
                           <label class="visually-hidden" for="inputDelivery">Address</label>
                           <input class="form-control input-box form-foodwagon-control" id="inputDelivery" type="text"
-                            placeholder="Enter Your Address" />
+                            placeholder="Enter Your Email Address" />
                         </div>
                       </div>
                       <div class="d-grid gap-3 col-sm-auto">
-                        <button class="btn btn-danger" type="submit">Find Food</button>
+                        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#dineIn"> Order Food</button>
                       </div>
                     </form>
                   </div>
@@ -119,21 +119,58 @@
                         <div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i>
                           <label class="visually-hidden" for="inputPickup">Address</label>
                           <input class="form-control input-box form-foodwagon-control" id="inputPickup" type="text"
-                            placeholder="Enter Your Address" />
+                            placeholder="Enter Your EmailAddress" />
                         </div>
                       </div>
                       <div class="d-grid gap-3 col-sm-auto">
-                        <button class="btn btn-danger" type="submit">Find Food</button>
+                        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pickup"> Order Food</button>
                       </div>
                     </form>
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- dine in modal -->
+<div class="modal fade" id="dineIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Order Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary">Submit Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- pickup modal-->
+<div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Order Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary">Submit Order</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
