@@ -121,7 +121,7 @@
                         <div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i>
                           <label class="visually-hidden" for="inputPickup">Address</label>
                           <input class="form-control input-box form-foodwagon-control" id="inputPickup" type="text"
-                            placeholder="Enter Your EmailAddress" />
+                            placeholder="Enter Your Email Address" />
                         </div>
                       </div>
                       <div class="d-grid gap-3 col-sm-auto">
@@ -144,7 +144,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="dineInLabel">Order Details</h4>
+            <h4 class="modal-title" id="dineInLabel">Book A Table</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -232,7 +232,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="dineInLabel">Order Receipt</h4>
+            <h4 class="modal-title" id="dineInLabel">Order Details</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -251,11 +251,36 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="pickupLabel">Order Details</h4>
+            <h4 class="modal-title" id="pickupLabel">Order Pickup</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ini pickup moda;
+            <div class="mb-3">
+              <label for="Main Dish" class="form-label">Main Dish</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Main Dish</option>
+                <option value="1">Laksa Perlis</option>
+                <option value="2">Kari Ayam</option>
+                <option value="3">Mee Hun Goreng</option>
+                <option value="3">Rendang</option>
+                <option value="3">Satay</option>
+                <option value="3">Nasi Goreng Sosej</option>
+                <option value="3">Nasi Lemak</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="Sides" class="form-label">Sides</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Sides</option>
+                <option value="1">Kuih Bingka Ubi</option>
+                <option value="2">Kuih Kaswi</option>
+                <option value="3">Kuih Koci</option>
+                <option value="3">Kuih Kosui</option>
+                <option value="3">Kuih Nona Manis</option>
+                <option value="3">Kuih Popiah</option>
+                <option value="3">Kuih Pulut Inti</option>
+              </select>
+            </div>
           </div>
           <div class="modal-footer border-0">
             <button class="btn btn-primary" data-bs-target="#receiptpickup" data-bs-toggle="modal"
@@ -272,7 +297,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h4 class="modal-title" id="pickupLabel">Order Receipt</h4>
+            <h4 class="modal-title" id="pickupLabel">Order Details</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
