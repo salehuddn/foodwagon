@@ -78,7 +78,7 @@
       </div>
     </nav>
     <section class="py-5 overflow-hidden bg-primary" id="home">
-      <div class="container">
+      <div class="container" id="ordernow">
         <div class="row flex-center">
           <div class="col-md-5 col-lg-6 order-0 order-md-1 mt-8 mt-md-0"><a class="img-landing-banner" href="#!"><img
                 class="img-fluid" src="assets/img/gallery/hero-header.png" alt="hero-header" /></a></div>
@@ -86,7 +86,7 @@
             <h1 class="display-1 fs-md-5 fs-lg-6 fs-xl-8 text-light">Are you starving?</h1>
             <h1 class="text-800 mb-5 fs-4">Within a few clicks, find meals that<br class="d-none d-xxl-block" />are
               accessible near you</h1>
-            <div class="card w-xxl-75">
+            <div class="card w-xxl-75" >
               <div class="card-body">
                 <nav>
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -487,7 +487,7 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
@@ -500,7 +500,7 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
@@ -513,7 +513,7 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
@@ -528,7 +528,7 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
@@ -543,12 +543,12 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <!-- <div class="carousel-item" data-bs-interval="5000">
                   <div class="row gx-3 h-100 align-items-center">
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
                       <div class="card card-span h-100 rounded-3"><img class="img-fluid rounded-3 h-100"
@@ -561,7 +561,7 @@
                           <span class="text-1000 fw-bold">RM2.00</span>
                         </div>
                       </div>
-                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#!" role="button">Order now</a>
+                      <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="#ordernow" role="button">Order now</a>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
@@ -621,7 +621,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
               <div class="carousel-item" data-bs-interval="3000">
                 <div class="row gx-3 h-100 align-items-center">
@@ -752,12 +752,12 @@
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev carousel-icon" type="button" data-bs-target="#carouselPopularItems"
+            <!-- <button class="carousel-control-prev carousel-icon" type="button" data-bs-target="#carouselPopularItems"
               data-bs-slide="prev"><span class="carousel-control-prev-icon hover-top-shadow"
                 aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
             <button class="carousel-control-next carousel-icon" type="button" data-bs-target="#carouselPopularItems"
               data-bs-slide="next"><span class="carousel-control-next-icon hover-top-shadow"
-                aria-hidden="true"></span><span class="visually-hidden">Next </span></button>
+                aria-hidden="true"></span><span class="visually-hidden">Next </span></button> -->
           </div>
         </div>
       </div>
@@ -1276,7 +1276,8 @@
                       <label for="exampleFormControlInput1" class="form-label">Message</label>
                       <input type="Message" class="form-control" id="Message">
                     </div>
-                    <button type="button" class="btn btn-primary btn-block">Submit</button>
+                    <button type="button" class="btn btn-primary btn-block" onclick="submitBtn()">Submit</button>
+                    
                   </div>
                   <div class="col p-4">
                     <h3 class="text-center mb-2">Find Us</h3>
@@ -1404,11 +1405,21 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
   <script src="vendors/fontawesome/all.min.js"></script>
   <script src="assets/js/theme.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap"
     rel="stylesheet">
 
   <script>
+
+function submitBtn() {
+      swal({
+        title: "Done!",
+        text: "Your form has been submitted successfully!",
+        icon: "success",
+      });
+    }
+
     var mymap = L.map("map", {
       center: [5.2511, 100.7557],
       zoom: 13,
@@ -1438,6 +1449,8 @@
   //     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   //   }).addTo(map);
   </script>
+
+  
 </body>
 
 </html>
